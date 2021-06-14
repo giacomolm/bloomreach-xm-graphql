@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hst:default/hst:catalog/essentials-catalog:
+      jcr:primaryType: hst:containeritempackage
+      /facets:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsFacetsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/facets.svg
+        hst:label: Facets
+        hst:template: blog-facet
+      /bloglist:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBlogComponent
+        hst:iconpath: images/essentials/catalog-component-icons/blog-list.svg
+        hst:label: Blog List
+        hst:template: blog-list
+      /blogauthorposts:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBlogAuthorPostsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/blogposts-by-author.svg
+        hst:label: Blog Posts by Author
+        hst:template: blog-author-posts

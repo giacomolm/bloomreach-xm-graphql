@@ -1,0 +1,21 @@
+/content/documents/administration/labels/facets:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: c36d7516-ffd2-4616-a226-82ef68ff94df
+  hippo:name: Facets
+  /facets:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4e419cdf-937a-488f-af29-f7953097a674
+    hippo:availability: [live, preview]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T23:01:47.892+02:00
+    hippostdpubwf:lastModificationDate: 2014-08-21T23:08:36.629+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2014-08-21T23:08:38.698+02:00
+    resourcebundle:descriptions: [Placeholder label for facets search., Label on facet
+        search button., Label for link to remove a facet filter.]
+    resourcebundle:id: essentials.facets
+    resourcebundle:keys: [facets.placeholder, facets.searchbutton, facets.remove]
+    resourcebundle:messages: [Search blog posts, Search, remove]
