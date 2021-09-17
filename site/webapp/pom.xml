@@ -33,6 +33,11 @@
       <artifactId>hst-addon-hcm-site</artifactId>
       <version>${hippo.hst.version}</version>
     </dependency>
+    <dependency>
+      <groupId>com.graphql-java-kickstart</groupId>
+      <artifactId>graphql-java-servlet</artifactId>
+      <version>11.1.0</version>
+    </dependency>
   </dependencies>
 
   <build>

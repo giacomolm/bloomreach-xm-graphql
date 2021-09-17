@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hst:default/hst:sitemap/graphql:
+      jcr:primaryType: hst:sitemapitem
+      hst:namedpipeline: PlainFilterChainInvokingPipeline
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
